@@ -4,6 +4,9 @@
 int main()
 {
     std::cout << "Hello World!\n" << a << b << std::endl;
+    std::cin.ignore();
+
+    return 0;
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
